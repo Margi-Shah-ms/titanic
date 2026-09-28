@@ -6,7 +6,7 @@ import seaborn as sns
 import os
 
 st.set_page_config(page_title="Titanic EDA Dashboard", layout="wide")
-st.title("🚢 Titanic Dataset - Exploratory Data Analysis (EDA)")
+st.title("🚢 Titanic Dataset - Exploratory Data Analysis")
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(script_dir, 'train.csv')
